@@ -20,9 +20,10 @@ Each 8-bit register is composed of two 4-bit D-type Flip-Flop ICs. Each register
 | Quad D-Type Flip-Flops | SN74LS175N | 6 |
 | Quad Tri-State Buffers | SN74HC125N | 6 |
 | 8-Position DIP Switch | 219-8LPST | 3 |
-| Push Buttons | SPST PB | 9 |
-| LED Array | Standard 5mm | 24 |
-| Resistors | Various (Pull-downs/Limiting) | ~60 |
+| 3-Position DIP Switch | 219-3LPST | 1 |
+| Push Buttons | SPST PB | 1 |
+| LED Array | Standard 5mm | 8 |
+| Resistors | Various (Pull-downs/Limiting) | ~36 |
 
 ## Technical Implementation Notes
 A unique challenge for this project was the component availability in the Kurdistan region of Iraq. Due to limited local stock, this build utilizes a hybrid of **LS (Low-power Schottky TTL)** for the registers and **HC (High-speed CMOS)** for the buffers. 
